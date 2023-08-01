@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %} Booking {% endblock title %}
+{% block body %}
+    <div class="container">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="/booking_form"><img src="/static/img/deluxe.jfif" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Deluxe Room</h5>
+                            <p>Simplicity meets comfort in our cozy retreat</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="/booking_form"><img src="/static/img/suite.jfif" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Suite</h5>
+                            <p>Indulge in luxury and space with our lavish suite experience.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="/booking_form"><img src="/static/img/executive.jfif" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Executive Room</h5>
+                            <p>Work and relaxation seamlessly combined for the modern business traveler.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="/booking_form"><img src="/static/img/familyroom.jfif" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Family Room</h5>
+                            <p>Create cherished memories in our spacious haven designed for the whole family.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="/booking_form"><img src="/static/img/presidential.jfif" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Presidential Suite</h5>
+                            <p>An extraordinary retreat where sophistication meets unparalleled luxury, ensuring an unforgettable experience fit for royalty.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
